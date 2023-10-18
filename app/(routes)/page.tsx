@@ -4,6 +4,6 @@ const HomePage = () => {
       <h1>Hello Store</h1>
     </div>
   );
-}
+};
 
 export default HomePage;
