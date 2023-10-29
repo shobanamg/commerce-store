@@ -6,13 +6,13 @@ import Button from '@/components/ui/Button';
 import { ShoppingBag } from '@/node_modules/lucide-react';
 
 const NavbarActions = () => {
-  const [ismounted, setismounted] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setismounted(true);
+    setIsMounted(true);
   }, []);
 
-  if (!ismounted) {
+  if (!isMounted) {
     return null;
   }
 
